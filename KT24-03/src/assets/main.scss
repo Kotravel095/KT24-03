@@ -1,0 +1,27 @@
+@import './font/Inter';
+
+// START:: MIXIN
+// END:: MIXIN
+
+// START:: Varable
+$main-bg-color-mode-sun: #E5E5E5;
+$main-bg-color-mode-night: #090D1F;
+$main-font-color-mode-sun: #392d2d;
+$main-font-color-mode-night: #FFFFFF;
+// END:: Varable
+
+*{
+    margin: 0;
+    padding: 0;
+    // background-color: $main-bg-color-mode-sun;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    // color: $main-font-color-mode-sun;
+}
+
+div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
